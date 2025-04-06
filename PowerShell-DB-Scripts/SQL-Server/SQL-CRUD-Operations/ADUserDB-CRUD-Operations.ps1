@@ -1,5 +1,5 @@
 # Lets Add the Module we created before
-Import-Module '.\PS-DB-Scripts\SQL-Server\SQL-CRUD-Operations\Common-PowerShell-Modules\Connect-To-SQL-Server-DB.psm1' -Force
+Import-Module '.\Common-PowerShell-Modules\Connect-To-SQL-Server-DB.psm1' -Force
 
 $sqlServerAuthConn = connectToSQLServer -serverInstanceName "Rohan-XPS-15" -databaseName "ADUserDB" -isWindowsAuth $false -connUserName "SQLAdmin" -connPassword "SQLAdmin"
 
