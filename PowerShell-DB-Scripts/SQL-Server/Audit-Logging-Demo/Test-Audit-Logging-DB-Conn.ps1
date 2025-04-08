@@ -7,7 +7,7 @@ $dbConn = openConnectionToAuditLogDB
 Write-Host "DB Status : " $dbConn.State -ForegroundColor Cyan
 
 # Verify AuditTable Insert 
-# insertAuditLog -dbConnection $dbConn -dbName 'CompDB' -tableName 'Department' -operation 'DEL' -affectedUserID 125 -dbUserID 'WindowsAdmin' -systemName 'SK-Win2K19' -appName 'Website'
+insertAuditLog -dbConnection $dbConn -dbName 'CompDB' -tableName 'Department' -operation 'DEL' -affectedUserID 125 -dbUserID 'WindowsAdmin' -systemName 'SK-Win2K19' -appName 'Website'
 
 # Verify AuditTable contents
 Write-Host "Check out the GridView!" -ForegroundColor Yellow
