@@ -90,10 +90,10 @@ function insertAuditLog {
 
     try 
     {
-        Write-Host "$tableName, $operation, $affectedUserID,$dbUserID,$systemName,$appName"
+        # Write-Host "$tableName, $operation, $affectedUserID,$dbUserID,$systemName,$appName"
 
         $sqlQuery = "INSERT INTO AuditTable (dbName, tableName,operation,affectedUserId,initiatedByDBUser,systemName,appName) VALUES ('$dbName','$tableName', '$operation', $affectedUserID,'$dbUserID','$systemName','$appName')"
-        Write-Host "Query : " $sqlQuery
+        # Write-Host "Query : " $sqlQuery
         invokeSQLInsertStmt -dbConnection $dbConnection -sqlInsertStatement $sqlQuery
     }
     catch {
