@@ -44,6 +44,8 @@ function connectToSQLServer
         # Once we have the ConnectionString setup, we Open the DB
         $dbConnection.Open()
 
+        # Write-Host "DB Status : " $dbConnection.State -ForegroundColor Gray
+
         # Open the connection and then Return the Connection Object
         return $dbConnection
     }
