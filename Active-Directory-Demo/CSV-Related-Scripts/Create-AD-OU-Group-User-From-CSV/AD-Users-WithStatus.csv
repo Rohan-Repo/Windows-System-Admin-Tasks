@@ -1,8 +1,0 @@
-SamAccountName,UserPrincipalName,MemberOf,Name,Enabled,FirstName,LastName
-chandler.m.bing,chandler.m.bing@npower.com,"CN=Project-Manager,OU=Canada,OU=NP-Chat-App,DC=npower,DC=com",Chandler Muriel Bing,TRUE,Chandler,Bing
-ross.j.geller,ross.j.geller@npower.com,"CN=Developer,OU=India,OU=NP-Chat-App,DC=npower,DC=com",Ross Eustace Geller,TRUE,Ross,Geller
-phoebe.a.buffay,phoebe.a.buffay@npower.com,"CN=Tester,OU=India,OU=NP-Chat-App,DC=npower,DC=com",Phoebe Pamela Buffay,FALSE,Phoebe,Buffay
-monica.f.geller,monica.f.geller@npower.com,"CN=Team-Lead,OU=Canada,OU=NP-Chat-App,DC=npower,DC=com",Monica Elizabeth Geller,FALSE,Monica,Geller
-joey.f.tribbiani,joey.f.tribbiani@npower.com,"CN=SystemAdmin,OU=Philippines,OU=NP-Chat-App,DC=npower,DC=com",Joseph Francis Tribbiani,TRUE,Joey,Tribbiani
-rachel.k.greene,rachel.k.greene@npower.com,"CN=Support,OU=Philippines,OU=NP-Chat-App,DC=npower,DC=com",Rachel Karen Greene,FALSE,Rachel,Greene
-gunther.cp,gunther.cp@npower.com,"CN=Sales,OU=South-Korea,OU=NP-Chat-App,DC=npower,DC=com",Gunther Central Perk,FALSE,Gunther,Central Perk
