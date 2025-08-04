@@ -11,3 +11,4 @@ if ($uAge -ge 18) {
 }
 
 # Run As : .\checkVotingAge.ps1 -uName "John Doe" -uAge 20
+# Run As : .\checkVotingAge.ps1 -uName "Jane Doe" -uAge 16
