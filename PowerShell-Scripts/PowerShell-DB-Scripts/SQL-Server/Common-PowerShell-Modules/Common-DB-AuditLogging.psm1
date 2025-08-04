@@ -11,7 +11,7 @@ function openConnectionToAuditLogDB
     try 
     {
         # This is going to be fixed so we don't accept any Input from User
-        $dbConnection = connectToSQLServer -serverInstanceName "Rohan-XPS-15" -databaseName "AuditLogDB" -isWindowsAuth $true
+        $dbConnection = connectToSQLServer -serverInstanceName "dbServerName" -databaseName "AuditLogDB" -isWindowsAuth $true
 
         # Write-Host "DB Status : " $dbConnection.State -ForegroundColor Green
 
