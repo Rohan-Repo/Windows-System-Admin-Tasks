@@ -1,0 +1,9 @@
+Show Routing Info:
+
+Windows :
+route print
+
+Ubuntu:
+sudo apt install net-tools
+
+netstat -r
