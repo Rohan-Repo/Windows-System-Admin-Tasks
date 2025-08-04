@@ -2,7 +2,7 @@
 # Here we just have to import the Common-DB-AuditLogging module which will internally call Connect-To-SQL-Server-DB module
 Import-Module '..\Common-PowerShell-Modules\Common-DB-AuditLogging.psm1' -Force
 
-$sqlServerAuthConn = connectToSQLServer -serverInstanceName "Rohan-XPS-15" -databaseName "ADUserDB" -isWindowsAuth $false -connUserName "SQLAdmin" -connPassword "SQLAdmin"
+$sqlServerAuthConn = connectToSQLServer -serverInstanceName "dbServerName" -databaseName "ADUserDB" -isWindowsAuth $false -connUserName "SQLAdmin" -connPassword "SQLAdmin"
 
 Write-Host "ADUserDB Status before : " $sqlServerAuthConn.State -ForegroundColor Cyan
 

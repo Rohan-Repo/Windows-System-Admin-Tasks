@@ -3,7 +3,7 @@ $sqlConn = New-Object System.Data.SqlClient.SqlConnection
 
 # Create the Connection String
 # I don't have an Instance Name Setup so ignore it and with SQL Server Authentication I need to specify the newly created User Credentials
-$sqlConn.ConnectionString = "Server=Rohan-XPS-15;Database=CompDB;Integrated Security=true"
+$sqlConn.ConnectionString = "Server=dbServerName;Database=CompDB;Integrated Security=true"
 
 # Open the Connection
 $sqlConn.Open()

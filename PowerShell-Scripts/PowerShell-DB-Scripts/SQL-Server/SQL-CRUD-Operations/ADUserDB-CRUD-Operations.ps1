@@ -1,7 +1,7 @@
 # Lets Add the Module we created before
 Import-Module '..\Common-PowerShell-Modules\Connect-To-SQL-Server-DB.psm1' -Force
 
-$sqlServerAuthConn = connectToSQLServer -serverInstanceName "Rohan-XPS-15" -databaseName "ADUserDB" -isWindowsAuth $false -connUserName "SQLAdmin" -connPassword "SQLAdmin"
+$sqlServerAuthConn = connectToSQLServer -serverInstanceName "dbServerName" -databaseName "ADUserDB" -isWindowsAuth $false -connUserName "SQLAdmin" -connPassword "SQLAdmin"
 
 Write-Host "DB Status before : " $sqlServerAuthConn.State -ForegroundColor Cyan
 
